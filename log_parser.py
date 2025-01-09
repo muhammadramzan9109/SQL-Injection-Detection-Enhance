@@ -73,7 +73,7 @@ f=open('demo_bad_responses.csv',"w")
 c = csv.writer(f)
 c.writerow(["method","path","body","single_q","double_q","dashes","braces","spaces","badwords","class"])
 f.close()
-#print(parse_log(log_path))
+
 result = parse_log(log_path)
 
 f = open('demo_bad_responses.csv','a')
